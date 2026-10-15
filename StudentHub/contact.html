@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Contact Us</h1>
+<header class="site-header">
+<div class="site-nav">
+<a href="index.html" class="brand">StudentHub</a>
+<button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="login.php">Login</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="dashboard.php">Dashboard</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<button class="theme-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
+</div>
+</header>
+<div class="card">
+<h2>Get in Touch</h2>
+<p>
+If you have any questions, suggestions, or need assistance regarding
+the StudentHub Portal, feel free to contact us using the details below
+or send us a message through the contact form.
+</p>
+</div>
+<div class="card">
+<h2>Contact Information</h2>
+<table>
+<tr>
+    <th>Information</th>
+    <th>Details</th>
+</tr>
+<tr>
+    <td>Email</td>
+    <td>25dcs138@charusat.edu.in</td>
+</tr>
+<tr>
+    <td>Phone</td>
+    <td>+91 9876543210</td>
+</tr>
+<tr>
+    <td>College</td>
+    <td>DEPSTAR, CHARUSAT University</td>
+</tr>
+<tr>
+    <td>Address</td>
+    <td>Changa, Anand, Gujarat, India</td>
+</tr>
+<tr>
+    <td>Office Hours</td>
+    <td>Monday - Friday (9:00 AM to 5:00 PM)</td>
+</tr>
+</table>
+</div>
+<div class="card">
+<h2>Send Us a Message</h2>
+<form id="contact-form" action="php/contact_process.php" method="post">
+<label for="c-name">Full Name</label>
+<input type="text" id="c-name" name="name" placeholder="Enter your name" required maxlength="50">
+<label for="c-email">Email Address</label>
+<input type="email" id="c-email" name="email" placeholder="Enter your email" required maxlength="100">
+<label for="c-subject">Subject</label>
+<input type="text" id="c-subject" name="subject" placeholder="Enter subject" required maxlength="100">
+<label for="c-message">Message</label>
+<textarea id="c-message" name="message" rows="5" placeholder="Write your message here" required minlength="10" maxlength="1000"></textarea>
+<!-- Honeypot: hidden from humans, bots tend to fill it in -->
+<div style="position:absolute;left:-9999px;" aria-hidden="true">
+<label for="c-website">Leave this field empty</label>
+<input type="text" id="c-website" name="website" tabindex="-1" autocomplete="off">
+</div>
+<input type="submit" value="Send Message">
+<input type="reset" value="Clear">
+</form>
+</div>
+<div class="card">
+<h2>College Location</h2>
+<iframe
+src="https://www.google.com/maps?q=CHARUSAT%20University&output=embed"
+width="100%"
+height="350"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+</div>
+<footer>
+    <p>© 2026 StudentHub Portal | Developed by Kris Vaghasiya</p>
+</footer>
+<script src="script.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+  {"id": 1, "question": "How do I reset my StudentHub password?", "answer": "Go to the Login page and use the CAPTCHA-verified login form. For a full password reset, contact the college IT desk with your roll number and registered email."},
+  {"id": 2, "question": "Where can I check my assignment deadlines?", "answer": "Open the Assignments page from the navigation menu. Each subject lists its assignment title, due date, and current submission status."},
+  {"id": 3, "question": "How do I register for a college event?", "answer": "Visit the Events page, find the event you want to join, and follow the registration instructions listed under Important Instructions before the event deadline."},
+  {"id": 4, "question": "Can I update my profile information myself?", "answer": "Currently profile details are managed by the college office. Contact support through the Contact page if any information needs correcting."},
+  {"id": 5, "question": "How is attendance calculated on the dashboard?", "answer": "Attendance shown on the Dashboard and Profile pages is the percentage of classes attended out of total classes held so far this semester."},
+  {"id": 6, "question": "Who do I contact for technical issues with the portal?", "answer": "Use the contact form or the phone number on the Contact page, or email the address listed there during office hours, Monday to Friday, 9 AM to 5 PM."}
+]

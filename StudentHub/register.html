@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Student Registration</h1>
+<header class="site-header">
+<div class="site-nav">
+<a href="index.html" class="brand">StudentHub</a>
+<button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="login.php">Login</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="dashboard.php">Dashboard</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<button class="theme-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
+</div>
+</header>
+<div class="form-box">
+<h2>Create New Account</h2>
+<div class="form-success" id="reg-success">Registration successful! You can now log in to StudentHub.</div>
+<form id="register-form" action="php/register_process.php" method="post" novalidate>
+
+<label for="reg-name">Full Name</label>
+<input type="text" id="reg-name" name="name" placeholder="Enter your full name" required>
+<span class="field-error" id="err-name">Name should contain only letters and spaces (min 3 characters).</span>
+
+<label for="reg-email">Email Address</label>
+<input type="email" id="reg-email" name="email" placeholder="Enter your email" required>
+<span class="field-error" id="err-email">Please enter a valid email address.</span>
+
+<label for="reg-mobile">Mobile Number</label>
+<input type="tel" id="reg-mobile" name="mobile" placeholder="Enter your 10-digit mobile number" required>
+<span class="field-error" id="err-mobile">Enter a valid 10-digit mobile number starting with 6-9.</span>
+
+<label for="reg-roll">Roll Number</label>
+<input type="text" id="reg-roll" name="roll" placeholder="Enter your roll number" required>
+<span class="field-error" id="err-roll">Roll number should be 5-15 letters/digits, e.g. 25DCS138.</span>
+
+<label for="reg-course">Course</label>
+<select id="reg-course" name="course" required>
+    <option value="">Select Course</option>
+    <option>Computer Science Engineering</option>
+    <option>Information Technology</option>
+    <option>Electronics &amp; Communication</option>
+    <option>Mechanical Engineering</option>
+    <option>Civil Engineering</option>
+</select>
+<span class="field-error" id="err-course">Please select your course.</span>
+
+<label for="reg-year">Year</label>
+<select id="reg-year" name="year" required>
+    <option value="">Select Year</option>
+    <option>1st Year</option>
+    <option>2nd Year</option>
+    <option>3rd Year</option>
+    <option>4th Year</option>
+</select>
+<span class="field-error" id="err-year">Please select your current year.</span>
+
+<label>Gender</label>
+<div class="radio-group">
+<label><input type="radio" name="gender" value="Female"> Female</label>
+<label><input type="radio" name="gender" value="Male"> Male</label>
+<label><input type="radio" name="gender" value="Other"> Other</label>
+</div>
+<span class="field-error" id="err-gender">Please select your gender.</span>
+
+<label for="reg-password">Password</label>
+<input type="password" id="reg-password" name="password" placeholder="Create password" required>
+<span class="field-error" id="err-password">Min 8 characters, with at least one letter, one number, and one special character.</span>
+
+<label for="reg-confirm">Confirm Password</label>
+<input type="password" id="reg-confirm" name="confirm" placeholder="Confirm password" required>
+<span class="field-error" id="err-confirm">Passwords do not match.</span>
+
+<div class="checkbox-line">
+<input type="checkbox" id="reg-terms" name="terms" value="1">
+<label for="reg-terms" style="margin:0;">I accept the Terms &amp; Conditions</label>
+</div>
+<span class="field-error" id="err-terms">You must accept the terms to register.</span>
+
+<!-- Honeypot: hidden from humans, bots tend to fill it in -->
+<div style="position:absolute;left:-9999px;" aria-hidden="true">
+<label for="reg-website">Leave this field empty</label>
+<input type="text" id="reg-website" name="website" tabindex="-1" autocomplete="off">
+</div>
+
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</form>
+</div>
+<footer>
+    <p>© 2026 StudentHub Portal | Developed by Kris Vaghasiya</p>
+</footer>
+<script src="script.js"></script>
+<script src="auth.js"></script>
+<script src="register-validation.js"></script>
+</body>
+</html>

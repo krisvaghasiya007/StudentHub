@@ -1,0 +1,9 @@
+[
+  {"id": 1, "title": "Web Technology Practical Submission", "date": "2026-07-30", "type": "Assignment", "message": "Submit the StudentHub HTML practical file through the portal before 11:59 PM."},
+  {"id": 2, "title": "Java Programming Assignment Due", "date": "2026-07-28", "type": "Assignment", "message": "Library Management System assignment must be uploaded to the LMS."},
+  {"id": 3, "title": "Hackathon Registration Open", "date": "2026-07-25", "type": "Event", "message": "Register for Hackathon 2026 by forming teams of up to 4 members."},
+  {"id": 4, "title": "Semester Examination Form Submission", "date": "2026-07-22", "type": "Exam", "message": "Fill and submit the semester III examination form before the last date."},
+  {"id": 5, "title": "Library Book Renewal", "date": "2026-07-20", "type": "General", "message": "Renew borrowed library books online before 31 July to avoid late fees."},
+  {"id": 6, "title": "Cybersecurity Seminar Announced", "date": "2026-07-18", "type": "Event", "message": "A guest seminar on cybersecurity fundamentals will be held next week in the auditorium."},
+  {"id": 7, "title": "Attendance Shortage Warning", "date": "2026-07-15", "type": "General", "message": "Students below 75% attendance must meet their mentor before the next exam cycle."}
+]

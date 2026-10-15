@@ -1,0 +1,10 @@
+[
+  {"id": 1, "name": "Hackathon 2026", "date": "2026-08-05", "venue": "Computer Lab", "category": "Technical", "description": "A 24-hour coding hackathon where teams build a working prototype around a surprise theme. Open to all departments; laptops and Wi-Fi provided."},
+  {"id": 2, "name": "Coding Competition", "date": "2026-08-12", "venue": "Seminar Hall", "category": "Programming", "description": "A timed competitive-programming contest covering data structures, algorithms, and problem solving. Top 3 scorers receive certificates and prizes."},
+  {"id": 3, "name": "Sports Day", "date": "2026-08-20", "venue": "College Ground", "category": "Sports", "description": "Annual inter-department sports meet featuring athletics, cricket, and kabaddi. Registration open for both individual and team events."},
+  {"id": 4, "name": "Career Guidance Seminar", "date": "2026-08-25", "venue": "Auditorium", "category": "Seminar", "description": "Industry professionals share advice on resumes, interviews, and career paths in software and core engineering roles."},
+  {"id": 5, "name": "Cultural Festival", "date": "2026-08-30", "venue": "Open Stage", "category": "Cultural", "description": "A day of music, dance, and drama performances by students, closing with a prize distribution for the best acts."},
+  {"id": 6, "name": "Cybersecurity Workshop", "date": "2026-09-04", "venue": "Computer Lab", "category": "Technical", "description": "Hands-on session covering network scanning, common web vulnerabilities, and safe practices, led by the CSE faculty."},
+  {"id": 7, "name": "Debate Competition", "date": "2026-09-10", "venue": "Seminar Hall", "category": "Cultural", "description": "Teams argue for and against current-affairs topics in front of a panel of judges from the languages department."},
+  {"id": 8, "name": "Alumni Meet", "date": "2026-09-18", "venue": "Auditorium", "category": "Seminar", "description": "Graduates return to share their career journeys and network with current students over informal sessions."}
+]

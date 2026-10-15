@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>College Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>College Events</h1>
+<header class="site-header">
+<div class="site-nav">
+<a href="index.html" class="brand">StudentHub</a>
+<button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="login.php">Login</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="dashboard.php">Dashboard</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<button class="theme-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
+</div>
+</header>
+<img src="https://asproduction.s3.ap-south-1.amazonaws.com/uploads/1/1768377331-69674bf383ec5.jpg"
+width="100%" height="700" alt="College event">
+<div class="card">
+<h2>Upcoming College Events</h2>
+<p>
+The StudentHub Portal keeps students informed about upcoming college
+activities, technical competitions, workshops, seminars, and cultural
+programs. Students are encouraged to participate and enhance their
+skills beyond academics.
+</p>
+</div>
+<div class="card">
+<h2>Event Schedule</h2>
+<div class="toolbar">
+<input type="search" id="event-search" placeholder="Search events by name or venue...">
+<select id="event-filter">
+<option value="">All Categories</option>
+<option value="Technical">Technical</option>
+<option value="Programming">Programming</option>
+<option value="Sports">Sports</option>
+<option value="Seminar">Seminar</option>
+<option value="Cultural">Cultural</option>
+</select>
+<select id="event-sort">
+<option value="date-asc">Date: Earliest first</option>
+<option value="date-desc">Date: Latest first</option>
+<option value="name-asc">Name: A to Z</option>
+<option value="name-desc">Name: Z to A</option>
+</select>
+</div>
+<div id="event-list">
+<p class="loading-state">Loading events...</p>
+</div>
+<div class="pagination" id="event-pagination"></div>
+</div>
+
+<div class="modal-overlay" id="event-modal">
+<div class="modal-box">
+<button class="modal-close" aria-label="Close">&times;</button>
+<div id="event-modal-content"></div>
+</div>
+</div>
+<div class="card">
+<h2>Benefits of Participating</h2>
+<ul>
+    <li>Improve technical and communication skills.</li>
+    <li>Work with teammates on real-world challenges.</li>
+    <li>Build confidence through competitions.</li>
+    <li>Earn certificates and awards.</li>
+    <li>Network with faculty and industry experts.</li>
+</ul>
+</div>
+<div class="card">
+<h2>Important Instructions</h2>
+<ul>
+    <li>Register before the event deadline.</li>
+    <li>Carry your college ID card.</li>
+    <li>Reach the venue at least 15 minutes early.</li>
+    <li>Follow the event rules and code of conduct.</li>
+    <li>Attend all sessions to receive participation certificates.</li>
+</ul>
+</div>
+<footer>
+    <p>© 2026 StudentHub Portal | Developed by Kris Vaghasiya</p>
+</footer>
+<script src="script.js"></script>
+<script src="auth.js"></script>
+<script src="events.js"></script>
+</body>
+</html>
